@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ControleProdutos.API/ControleProdutos.API.csproj" />
+  <Project Path="ControleProdutos.Application/ControleProdutos.Application.csproj" />
+  <Project Path="ControleProdutos.Desktop/ControleProdutos.Desktop.csproj" />
+  <Project Path="ControleProdutos.Domain/ControleProdutos.Domain.csproj" />
+  <Project Path="ControleProdutos.Infraestrutura/ControleProdutos.Infraestrutura.csproj" />
+</Solution>
