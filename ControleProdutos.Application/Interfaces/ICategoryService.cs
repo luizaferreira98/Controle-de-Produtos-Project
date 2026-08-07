@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// =============================================================================
+// SenacGames.Application - Interface ICategoryService
+// =============================================================================
+
+using ControleProdutos.Application.DTOs;
+
 
 namespace ControleProdutos.Application.Interfaces
 {
-    internal class ICategoryService
+    /// <summary>
+    /// Contrato do serviço de Categorias.
+    /// </summary>
+    public interface ICategoryService
     {
+        Task<IEnumerable<CategoryDto>> GetAllAsync();
+        Task<CategoryDto?> GetByIdAsync(int id);
+        Task<CategoryDto> CreateAsync(CreateCategoryDto dto);
+        Task<CategoryDto?> UpdateAsync(int id, UpdateCategoryDto dto);
+        Task<bool> DeleteAsync(int id);
+        Task<int> CountAsync();
     }
 }

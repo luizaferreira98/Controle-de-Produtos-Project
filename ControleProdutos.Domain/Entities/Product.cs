@@ -37,6 +37,8 @@ namespace ControleProdutos.Domain.Entities
         /// </summary>
         public string Description { get; set; } = string.Empty;
 
+        public decimal Price { get; set; }
+
         /// <summary>
         /// URL da imagem de capa do Produto.
         /// </summary>
