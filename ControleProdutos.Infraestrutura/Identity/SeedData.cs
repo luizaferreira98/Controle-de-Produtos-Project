@@ -79,11 +79,11 @@ namespace ControleProdutos.Infrastructure.Identity
                         Title = "Iphone 13 Pro Max",
                         Description = "O iPhone 13 Pro Max oferece desempenho excepcional, câmera avançada e uma experiência de usuário incomparável.",
                         CoverImageUrl = "",
-                        Price = 9999.99,
+                        Price = 3333.00m,
                         CategoryId = eletronicos.Id,
                         CreatedAt = DateTime.Now
                     }
-    
+
                 };
                 await context.Products.AddRangeAsync(products);
                 await context.SaveChangesAsync();
