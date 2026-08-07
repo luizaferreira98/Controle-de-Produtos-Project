@@ -12,10 +12,10 @@
 // Ela é o "coração" da aplicação e define O QUE o sistema é.
 // =============================================================================
 
-namespace SenacGames.Domain.Entities
+namespace ControleProdutos.Domain.Entities
 {
     /// <summary>
-    /// Representa um Produto no catálogo do SenacGames.
+    /// Representa um Produto no catálogo do ControleProdutos.
     /// Cada Produto possui um título, descrição,
     /// imagem do Produto e pertence a uma categoria.
     /// </summary>

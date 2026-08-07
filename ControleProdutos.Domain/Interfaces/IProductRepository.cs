@@ -11,9 +11,9 @@
 // - Isso permite trocar a implementação sem alterar o resto do sistema
 // =============================================================================
 
-using SenacGames.Domain.Entities;
+using ControleProdutos.Domain.Entities;
 
-namespace SenacGames.Domain.Interfaces
+namespace ControleProdutos.Domain.Interfaces
 {
     /// <summary>
     /// Contrato do repositório de Produtos.
@@ -31,11 +31,6 @@ namespace SenacGames.Domain.Interfaces
         /// Retorna null se não encontrar.
         /// </summary>
         Task<Product?> GetByIdAsync(int id);
-
-        /// <summary>
-        /// Retorna apenas os produtos marcados como destaque (IsFeatured = true).
-        /// </summary>
-        Task<IEnumerable<Product>> GetFeaturedAsync();
 
         /// <summary>
         /// Retorna todos os produtos de uma categoria específica.

@@ -5,9 +5,9 @@
 // Segue o mesmo padrão do IProductRepository.
 // =============================================================================
 
-using SenacGames.Domain.Entities;
+using ControleProdutos.Domain.Entities;
 
-namespace SenacGames.Domain.Interfaces
+namespace ControleProdutos.Domain.Interfaces
 {
     /// <summary>
     /// Contrato do repositório de Categorias.
