@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Forms\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="UserControls\" />
+    <Folder Include="Services\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
 </Project>
