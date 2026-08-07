@@ -9,7 +9,7 @@
 // Isso significa que cada Category pode ter vários Produtos associados.
 // =============================================================================
 
-namespace SenacGames.Domain.Entities
+namespace ControleProdutos.Domain.Entities
 {
     /// <summary>
     /// Representa uma categoria de Produtos.
