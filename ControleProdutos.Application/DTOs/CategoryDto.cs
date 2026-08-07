@@ -16,7 +16,7 @@ namespace ControleProdutos.Application.DTOs
         /// Quantidade de games nesta categoria.
         /// Útil para mostrar no dashboard e na listagem.
         /// </summary>
-        public int GameCount { get; set; }
+        public int ProductCount { get; set; }
     }
 
     /// <summary>

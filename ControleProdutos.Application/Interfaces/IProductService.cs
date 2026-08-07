@@ -25,7 +25,7 @@ namespace ControleProdutos.Application.Interfaces
     {
         Task<IEnumerable<ProductDto>> GetAllAsync();
         Task<ProductDto?> GetByIdAsync(int id);
-        Task<IEnumerable<ProductDto>> GetFeaturedAsync();
+
         Task<IEnumerable<ProductDto>> GetByCategoryAsync(int categoryId);
         Task<ProductDto> CreateAsync(CreateProductDto dto);
         Task<ProductDto?> UpdateAsync(int id, UpdateProductDto dto);

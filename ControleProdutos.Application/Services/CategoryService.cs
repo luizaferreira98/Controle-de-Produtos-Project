@@ -78,7 +78,7 @@ namespace ControleProdutos.Application.Services
             {
                 Id = category.Id,
                 Name = category.Name,
-                GameCount = category.Games?.Count ?? 0
+                ProductCount = category.Products?.Count ?? 0
             };
         }
     }
